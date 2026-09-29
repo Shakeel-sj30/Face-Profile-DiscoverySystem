@@ -1,0 +1,39 @@
+# ─── Python AI Service ────────────────────────────────────────────────────────
+ai-service/__pycache__/
+ai-service/**/__pycache__/
+ai-service/**/*.pyc
+ai-service/**/*.pyo
+ai-service/.env
+ai-service/venv/
+ai-service/.venv/
+ai-service/*.egg-info/
+ai-service/dist/
+ai-service/build/
+
+# ─── Java / Spring Boot Server ───────────────────────────────────────────────
+server/target/
+server/.mvn/
+server/**/*.class
+server/**/*.jar
+server/**/*.war
+server/.env
+
+# ─── React / Node Frontend ───────────────────────────────────────────────────
+client/node_modules/
+client/dist/
+client/.env
+client/.env.local
+client/.env.*.local
+
+# ─── Root level ──────────────────────────────────────────────────────────────
+venv/
+.venv/
+node_modules/
+*.log
+
+# ─── IDE / OS ─────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
