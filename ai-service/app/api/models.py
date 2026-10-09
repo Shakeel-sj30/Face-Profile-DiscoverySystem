@@ -40,6 +40,8 @@ class CompareResponse(BaseModel):
 class DiscoverRequest(BaseModel):
     imageBase64: str
     topK: Optional[int] = 5
+    filename: Optional[str] = None
+    nameHint: Optional[str] = None
 
 class CandidateResult(BaseModel):
     resultId: str

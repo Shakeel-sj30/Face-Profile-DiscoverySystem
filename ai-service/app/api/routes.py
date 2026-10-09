@@ -126,6 +126,8 @@ def discover_candidates_endpoint(req: DiscoverRequest):
         query_vector,
         top_k=req.topK or 5,
         image_bytes=raw_image_bytes,
+        filename=req.filename,
+        name_hint=req.nameHint,
     )
     candidates = [CandidateResult(**c) for c in candidates_raw]
 
